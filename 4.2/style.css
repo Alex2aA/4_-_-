@@ -57,9 +57,16 @@ header
 .main-block{
     background-color: #BEE9E8;
     width: 700px;
-    margin: 500px auto;
     padding: 20px;
     border-radius: 50px; 
+}
+
+.text-block h1
+{
+    text-shadow:
+    1px 1px 2px red,
+    0 0 1em rgb(250, 180, 17),
+    0 0 0.2em rgb(85, 255, 0);
 }
 
 .text-block
@@ -114,14 +121,38 @@ main
 .two-image img
 {
     position: absolute;
-    width: 500px;
-    height: 500px;
+    width: 250px;
+    height: 250px;
 }
 
 .two-image img:first-child
 {
-    right: 350px;
-    top: 300px;
+    right: 165px;
+    top: 140px;
+    box-shadow: -30px 40px 12px 13px rgba(34, 60, 80, 0.5);
+}
+
+.two-image img:last-child
+{
+    right: 120px;
+    top:190px;
+}
+
+.wrapper-block
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 100px auto;
+}
+
+.two-image
+{
+    background-color: #BEE9E8;
+    border-radius: 30px;
+    width: 380px;
+    height: 380px;
 }
 
 /* ------------------------------------------------- */
