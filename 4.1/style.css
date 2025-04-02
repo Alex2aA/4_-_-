@@ -1,0 +1,32 @@
+.block{
+    display: inline-flex;
+    align-items: center; /* Выравнивание по вертикали */
+    justify-content: space-around; /* Выравнивание по горизонтали */
+    font-size: 20px;
+    min-height: 150px;
+    min-width: 150px;
+}
+.sh1 {
+    background: orange;
+    border-radius: 0px;
+    
+}
+.sh2{
+    background: rgb(255, 255, 0);
+    border-radius: 80px;
+    border: 5px solid rgb(0, 255, 0);
+}
+.sh3{
+    background: greenyellow;
+    border: 5px solid red;
+    border-radius: 20px;
+}
+.sh4{
+    background: rgb(0, 195, 255);
+    border: 0px;
+}
+.sh5{
+    background: white;
+    border: 5px solid orange;
+    border-radius: 80px;
+}
