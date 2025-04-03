@@ -14,6 +14,21 @@ h1
     font-style: normal;
 }
 
+.tg a {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.ss{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
 h2
 {
     font-family: "Work Sans", sans-serif;
@@ -88,7 +103,7 @@ header
 
 main
 {
-    position: absolute;
+    
     width: 100%;
 }
 
@@ -114,6 +129,22 @@ main
     scale: 1.05;
     text-decoration: underline;
     transition: 0.2s;
+}
+
+.pic_up{
+  width: 40px;
+}
+.pic_up a:hover{
+  background:#04080F;
+}
+
+.pic_up a:active{
+  background: #04080F;
+} 
+
+.form {
+  width: 30%;
+  margin-right: 50px;
 }
 
 .two-image img
@@ -218,9 +249,17 @@ a
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  padding-right: 20px;
 
   background-color: #1B4965;
+}
+
+.menu-item:first-child
+{
+  padding-right: 20px;
+}
+.menu-item:last-child
+{
+  padding-right: 20px;
 }
 
 .menu-item:last-child
@@ -234,7 +273,7 @@ a
   height: 650px;
 }
 
-.menu-item:first-child
+.menu-item img:first-child
 {
   float: left;
 }
@@ -245,6 +284,53 @@ a
     1px 1px 2px red,
     0 0 1em rgb(250, 180, 17),
     0 0 0.2em rgb(85, 255, 0);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex_just_between {
+  justify-content: space-between;
+}
+
+.flex_just_center {
+  justify-content: center;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+  color: white;
+}
+
+footer
+{
+  width: 100%;
+  background-color: #1B4965;
+  padding-top: 50px;
+}
+
+.flex_align_center {
+  align-items: center
+}
+
+.flex_end{
+  justify-content:flex-end;
+}
+
+.gap_20 {
+  gap: 20px;
+}
+
+up {
+  background: #BBD1EA;
+  position: fixed;
+  top: 90%;
+  left: 95%;
+  width: 40px;
+  height: 40px;
+  z-index: 5;
 }
 
 .menu-item img
