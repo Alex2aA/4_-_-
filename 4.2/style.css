@@ -150,21 +150,19 @@ main
 .two-image img
 {
     position: absolute;
-    width: 250px;
-    height: 250px;
+    width: 500px;
 }
 
 .two-image img:first-child
 {
-    right: 165px;
-    top: 140px;
-    box-shadow: -30px 40px 12px 13px rgba(34, 60, 80, 0.5);
+    right: 150px;
+    top: 350px;
 }
 
 .two-image img:last-child
 {
-    right: 120px;
-    top:190px;
+    right: 90px;
+    top: 450px;
 }
 
 .wrapper-block
@@ -342,8 +340,9 @@ up {
 .two-image
 {
     background-color: #CAE9FF;
-    width: 380px;
+    width: 200px;
     height: 380px;
+    margin-right: 150px;
 }
 
 /* ------------------------------------------------- */
