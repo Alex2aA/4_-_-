@@ -355,7 +355,7 @@ up {
   }
   
   .button {
-    min-width: 300px;
+    min-width: 150px;
     min-height: 60px;
     display: inline-flex;
     font-family: 'Nunito', sans-serif;
@@ -423,6 +423,17 @@ up {
     animation: none;
     display: none;
   }
+
+  .float-div
+  {
+    font-size: 23px;
+    color:white;  
+    background-color: #1B4965; 
+    width: 1300px; 
+    margin: 150px auto; 
+    padding: 20px; 
+    line-height: 40px;
+  }
   
   @keyframes ring {
     0% {
@@ -436,3 +447,82 @@ up {
       opacity: 0;
     }
   }
+
+@media (max-width: 1980px) {
+  .two-image img:first-child 
+  {
+    right: 0px !important;
+  }
+  .two-image img
+  {
+    right: -60px !important;
+  }
+}
+
+@media (max-width: 1600px) {
+  .two-image img:first-child 
+  {
+    right: -50px !important;
+  }
+  .two-image img
+  {
+    right: -150px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .two-image img:first-child 
+  {
+    right: -150px !important;
+  }
+  .two-image img
+  {
+    right: -200px !important;
+  }
+
+  .main-block
+  {
+    width: 600px;
+    margin-left: 30px;
+  }
+
+  .button
+  {
+    width: 150px !important;
+  }
+}
+@media (max-width: 900px) {
+  .two-image img:first-child 
+  {
+    right: -150px !important;
+  }
+  .two-image img
+  {
+    right: -200px !important;
+  }
+
+  .main-block
+  {
+    width: 600px;
+    margin-left: 30px;
+  }
+
+  .button
+  {
+    width: 150px !important;
+  }
+  .news-item h2 
+  {
+    font-size: 15px;
+  }
+  .news-item a
+  {
+    margin-top: -15px;
+  }
+
+  .float-div
+  {
+    width: 900px;
+    padding: 0px;
+  }
+}
